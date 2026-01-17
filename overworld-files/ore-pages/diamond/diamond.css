@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background: white;
+    user-select: none;
+    -webkit-app-region: drag;
+    background-image: url(../../../assets/diamondbackground.png);
+}
+
+#title{
+    color: #FFF;
+    font-family: "Cascadia Code";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #585858;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+#output{
+    color: #FFF;
+    font-family: "Cascadia Code";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #585858;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+.topBar{
+    width: 400px;
+    height: 30px;
+    background: #585858;
+    display: flex;
+}
+
+#backArrow{
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+#backArrowIcon{
+    width: 30px;
+    height: 30px;
+    background: #585858;
+}
+
+#xButton{
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+#xButtonIcon{
+    width: 30px;
+    height: 30px;
+    background: #585858;
+}
+
+button,
+input,
+textarea,
+select {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
